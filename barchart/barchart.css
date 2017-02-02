@@ -1,0 +1,32 @@
+@import "https://fonts.googleapis.com/css?family=Didact+Gothic|Montserrat ";
+
+.barchart {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.barchart svg .labelValue {
+  font-size: 10px;
+  fill: #787875;
+  text-anchor: middle;
+}
+.barchart svg .label {
+  font-size: 10px;
+  text-anchor: middle;
+  fill: #787875;
+  font-family: "Didact Gothic", sans-serif;
+}
+.barchart svg .baseline {
+  stroke: none;
+  stroke-width: 1px;
+}
+.barchart svg .axis line {
+  stroke: #e5e5e5;
+}
+.barchart svg .axis path {
+  stroke: none;
+}
+.barchart svg .axis text {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 10px;
+  fill: #787875;
+}

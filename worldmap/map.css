@@ -1,0 +1,30 @@
+@import "https://fonts.googleapis.com/css?family=Didact+Gothic|Montserrat";
+
+
+.mapchart svg .country {
+  fill: #E5E8E8;
+  stroke: #E5E8E8;
+}
+.mapchart  svg .departure {
+  font-family: "Montserrat", sans-serif;
+  fill: #ce0058;
+}
+.mapchart  svg .arrival {
+  font-family: "Montserrat", sans-serif;
+  fill: #7FB3D5;
+}
+.mapchart  svg .departurePoint {
+  font-family: "Montserrat", sans-serif;
+  fill: #ce0058;
+  r: 5;
+}
+.mapchart  svg .arrivalPoint {
+  font-family: "Montserrat", sans-serif;
+  fill: #7FB3D5;
+  r: 3;
+}
+.mapchart  svg .route {
+  stroke: #A9CCE3;
+  fill: transparent;
+  stroke-line: capround;
+}

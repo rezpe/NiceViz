@@ -1,0 +1,42 @@
+@import "https://fonts.googleapis.com/css?family=Didact+Gothic|Montserrat";
+.linechart .area {
+  fill: steelblue;
+  clip-path: url(#clip);
+}
+
+.linechart .zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+
+.linechart {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.linechart svg .labelValue {
+  font-size: 10px;
+  fill: #787875;
+  text-anchor: middle;
+}
+.linechart svg .label {
+  font-size: 10px;
+  text-anchor: middle;
+  fill: #787875;
+  font-family: "Didact Gothic", sans-serif;
+}
+.linechart svg .baseline {
+  stroke: none;
+  stroke-width: 1px;
+}
+.linechart svg .axis line {
+  stroke: #e5e5e5;
+}
+.linechart svg .axis path {
+  stroke: none;
+}
+.linechart svg .axis text {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 10px;
+  fill: #787875;
+}
